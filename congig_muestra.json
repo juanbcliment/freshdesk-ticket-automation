@@ -1,0 +1,24 @@
+{
+  "freshdesk": {
+    "api_key": "TU_API_KEY_FRESHDESK", 
+    "domain": "TU_DOMINIO_FRESHDESK" 
+  },
+  "google_sheets": {
+    "credentials_file": "credentials.json",
+   "planilla_nombre": "Horarios_automatizacion_fresh",
+    "hoja_horarios_agentes": "HorariosAgentes",  
+    "hoja_configuracion_global": "ConfiguracionGlobal"
+  },
+  "archivos_estado": {
+     "ultimo_agente_asignado": "ultimo_agente.txt",
+    "encuestas_procesadas": "encuestas_procesadas_ids.txt",
+    "mapa_agentes_cache": "cache_mapa_agentes.json",
+    "agentes_operativos_cache": "cache_agentes_operativos.json",
+    "fuera_horario_procesados": "fuera_horario_procesados_ids.txt",
+    "configuracion_global_cache": "cache_configuracion_global.json"
+  },
+  "parametros_aplicacion": {
+    "minutos_revision_tickets_cerrados_recientes": 5,
+    "minutos_antiguedad_max_busqueda_fh": 5
+  }
+}

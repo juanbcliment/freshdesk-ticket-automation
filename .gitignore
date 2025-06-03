@@ -1,0 +1,41 @@
+# Archivos de configuración sensibles
+config.json
+credentials.json
+
+# Archivos de caché generados
+cache_mapa_agentes.json
+cache_agentes_operativos.json
+cache_configuracion_global.json
+# Un patrón más general si tienes otros archivos de caché con ese prefijo:
+# cache_*.json
+
+# Archivos de estado generados en tiempo de ejecución
+ultimo_agente.txt
+fuera_horario_procesados_ids.txt
+# Si tienes otros archivos .txt que son de estado y no deben subirse:
+# *.txt (¡Cuidado! Esto ignoraría TODOS los .txt, úsalo con precaución o sé más específico)
+
+# Entorno virtual de Python
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos específicos de IDEs (opcional, pero buena práctica)
+.idea/
+.vscode/
+
+# Archivos de sistema operativo (opcional, pero buena práctica)
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba generados (si los usas y no quieres subirlos)
+# Ejemplo:
+# *_TEST.json
+# *_TEST.txt
