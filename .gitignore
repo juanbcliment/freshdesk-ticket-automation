@@ -12,6 +12,7 @@ cache_configuracion_global.json
 # Archivos de estado generados en tiempo de ejecución
 ultimo_agente.txt
 fuera_horario_procesados_ids.txt
+reaadME.txt
 # Si tienes otros archivos .txt que son de estado y no deben subirse:
 # *.txt (¡Cuidado! Esto ignoraría TODOS los .txt, úsalo con precaución o sé más específico)
 
